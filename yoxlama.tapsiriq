@@ -1,0 +1,9 @@
+let a = 1;
+do {
+{
+    do {document.writeln(a);
+    while(a<2)}
+}
+document.writeln(a);
+a++;
+} while(a<6);
